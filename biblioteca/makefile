@@ -1,4 +1,4 @@
-NOME = teste_da_biblioteca
+NOME = compare_values
 
 all: $(NOME).o
 	ld -s -o $(NOME) $(NOME).o
